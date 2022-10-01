@@ -1,0 +1,47 @@
+* {
+    box-sizing: border-box;
+}
+.box {
+    width: 100px;
+    height: 100px;
+    /*background: red; смотреть ворд, на рабочем столе*/
+    /* background-image: url(https://kartinkin.net/uploads/posts/2021-07/1626126332_7-kartinkin-com-p-les-tekstura-krasivo-8.jpg);
+    background-size: 70px 70px ;*/
+    background-repeat: no-repeat;
+    background-image: linear-gradient(90deg, red 0%, red 30%, green 33%, green 50%, green 63%, blue 66%, blue 100%);
+    
+    border-radius: 5px 10px 15px 20px;
+
+    
+    /* border: 5px solid red; /* /* часто используют границу solid, double, dashed*/
+    
+    /*border-top: 5px solid magenta; короткий вриант написания верхней границы*/
+    
+    /*border-top-color: magenta;
+    border-top-width: 5px;
+    border-top-style: solid;*/
+
+    /*border-left: 1px solid red;
+    border-right: 7px solid green;
+    border-bottom: 4px solid purple; */
+
+   /* border: 5px solid #ff0000; короткий вариант написания границы у квадрата*/ 
+
+     /* border-width: 5px;
+     border-style: solid;
+     border-color: #ff0000; длинный вариант написания границ */
+}
+
+.border-without-border {
+    border: none;
+}
+.circle {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: lime;
+}
+
+.article-img {
+    float: left;
+}
